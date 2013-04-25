@@ -1,0 +1,16 @@
+<map>
+	<entrances>
+		<entrance id="1" playerSpawn="true">
+			<coordx>90</coordx>
+			<coordy>200</coordy>
+		</entrance>
+	</entrances>
+	
+	<actors>
+		<actor class="me.expertmac2.rpg.actors.NPC" spawnNow="true" visible="true">
+			<spritesheet>res/actors/test-character.png</spritesheet>
+			<coordx>75.0</coordx>
+			<coordy>120.0</coordy>
+		</actor>
+	</actors>
+</map>

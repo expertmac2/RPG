@@ -1,0 +1,35 @@
+<!-- This file is used to build the AnimationSets for actors and world objects. -->
+<animations>
+
+	<actors>
+		<actor class="me.expertmac2.rpg.actors.Player" sheet="gfx/actors/robotron.png" texturewidth="32" textureheight="32">
+			<animation name="idle" id="0">
+				<frame x="0" y="0" duration="1" />
+			</animation>
+			<animation name="walking" id="1">
+				<frame x="0" y="0" duration="150" />
+				<frame x="1" y="0" duration="150" />
+				<frame x="2" y="0" duration="150" />
+			</animation>
+		</actor>
+		<actor class="me.expertmac2.rpg.actors.NPC" sheet="gfx/actors/robotron.png" texturewidth="32" textureheight="32">
+			<animation name="idle" id="0">
+				<frame x="0" y="0" duration="1" />
+			</animation>
+			<animation name="walking" id="1">
+				<frame x="0" y="0" duration="150" />
+				<frame x="1" y="0" duration="150" />
+				<frame x="2" y="0" duration="150" />
+			</animation>
+		</actor>
+	</actors>
+	
+	<worldobjs>
+		<worldobj class="me.expertmac2.DemoGame.TriggerTest" sheet="gfx/obj/test.png" texturewidth="" textureheight="">
+			<animation name="normal" id="0">
+				<frame x="0" y="0" duration="1" />
+			</animation>
+		</worldobj>
+	</worldobjs>
+	
+</animations>
